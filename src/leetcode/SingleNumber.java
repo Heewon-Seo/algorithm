@@ -1,5 +1,10 @@
 package leetcode;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+
 public class SingleNumber {
 
     public static void main(String[] args) {
@@ -22,9 +27,6 @@ public class SingleNumber {
         }
 
         System.out.println(answer);
-
-
-
 
     }
 }

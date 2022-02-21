@@ -10,6 +10,8 @@ public class Bigger {
     public int[] solution (int count, int[] numbers) {
         int[] answer = new int[count];
 
+
+
         return answer;
     }
 
@@ -19,6 +21,14 @@ public class Bigger {
 
         int count = scanner.nextInt();
         String numbers = scanner.nextLine();
+        char[] array = numbers.toCharArray();
+        int[] numbersArray = new int[array.length];
+        for(int i = 0; i < array.length ; i++) {
+            numbersArray[i] = Integer.parseInt(String.valueOf(array[i]));
+        }
+
+
+        main.solution(count, numbersArray);
 
 
 
